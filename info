@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Variables to store initial velocity, acceleration, time, and final velocity
+    double initialVelocity, acceleration, time, finalVelocity;
+
+    // Input values from the user
+    cout << "Enter initial velocity (m/s): ";
+    cin >> initialVelocity;
+
+    cout << "Enter acceleration (m/s^2): ";
+    cin >> acceleration;
+
+    cout << "Enter time (s): ";
+    cin >> time;
+
+    // Calculate final velocity using the kinematic equation
+    finalVelocity = initialVelocity + acceleration * time;
+
+    // Output the result
+    cout << "Final velocity is: " << finalVelocity << " m/s" << endl;
+
+    return 0;
+}
